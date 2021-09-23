@@ -1,6 +1,6 @@
 # Pytorch MCBPR
 
-This is a Pytorch implementation of Multi Channel BPR (MCBPR) 
+This is a Pytorch implementation of Multi Channel BPR (MCBPR)
 [Bayesian Personalized Ranking with Multi-channel User Feedback - Loni et al. (2016)](https://dl.acm.org/doi/pdf/10.1145/2959100.2959163)
 
 ## Description
@@ -56,7 +56,7 @@ This project is licensed under the [NAME HERE] License - see the LICENSE.md file
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [Python implementation of MCBPR](https://github.com/mkurovski/multi_channel_bpr#bayesian-personalized-ranking-with-multi-channel-user-feedback---loni-et-al-2016)
 * [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 * [dbader](https://github.com/dbader/readme-template)
 * [zenorocha](https://gist.github.com/zenorocha/4526327)
