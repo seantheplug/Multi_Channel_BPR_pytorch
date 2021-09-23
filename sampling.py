@@ -5,11 +5,6 @@ import logging
 
 import numpy as np
 
-__author__ = "Marcel Kurovski"
-__copyright__ = "Marcel Kurovski"
-__license__ = "mit"
-
-_logger = logging.getLogger(__name__)
 
 
 def get_pos_channel(pos_level_dist):

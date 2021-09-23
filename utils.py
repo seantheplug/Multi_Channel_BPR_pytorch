@@ -7,6 +7,9 @@ import pdb
 import numpy as np
 import pandas as pd
 
+import statistics
+import math
+
 
 
 def get_pos_level_dist(weights, level_counts, mode='non-uniform'):
@@ -68,8 +71,8 @@ def get_neg_level_dist(weights, level_counts, mode='non-uniform'):
         n_levels = len(weights)
         dist = [1 / n_levels] * n_levels
 
-    if np.abs(np.sum(dist)-1) > 0.00001:
-        _logger.warning("Dist sum unequal 1.")
+    # if np.abs(np.sum(dist)-1) > 0.00001:
+    #     _logger.warning("Dist sum unequal 1.")
 
     dist = dict(zip(list(weights), dist))
 
@@ -137,8 +140,6 @@ def get_channels(inter_df):
     return channels[::-1]
 
 
-import statistics
-import math
 
 def calculate_Recall(active_watching_log, topk_program):
     unique_played_amount = len(set(active_watching_log))
