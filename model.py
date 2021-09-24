@@ -3,7 +3,6 @@ Model initialization and training methods
 """
 
 from collections import OrderedDict
-import logging
 
 from evaluation import top_k_evaluate
 from utils import *

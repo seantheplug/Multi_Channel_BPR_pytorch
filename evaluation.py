@@ -1,7 +1,6 @@
 """
 Evaluation module
 """
-import logging
 import argparse
 import faiss
 import numpy as np
@@ -10,11 +9,7 @@ import pandas as pd
 from utils import calculate_Recall, calculate_NDCG, calculate_Precision
 import numpy as np
 
-# __author__ = "Marcel Kurovski"
-# __copyright__ = "Marcel Kurovski"
-# __license__ = "mit"
 
-_logger = logging.getLogger(__name__)
 
 
 def top_k_evaluate(k_amount, test_data_address, user_emb, item_emb, dimension):

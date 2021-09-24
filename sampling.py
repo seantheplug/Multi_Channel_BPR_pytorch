@@ -1,7 +1,6 @@
 """
 Module with channel and item sampling functions
 """
-import logging
 
 import numpy as np
 

@@ -79,24 +79,6 @@ def get_neg_level_dist(weights, level_counts, mode='non-uniform'):
     return dist
 
 
-def rms(x):
-    """
-    Calculates Root Mean Square for array x
-    """
-    s = np.square(x)
-    ms = np.mean(s)
-    result = np.sqrt(ms)
-
-    return result
-
-
-def sigmoid(x):
-    """
-    Calculates Sigmoid of x
-    """
-    return 1/(1+np.exp(-x))
-
-
 def load_rating_data(path):
     """
     loads the movielens 1M dataset, ignoring temporal information
