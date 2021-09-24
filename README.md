@@ -7,8 +7,6 @@ This is a Pytorch implementation of Multi Channel BPR (MCBPR)
 
 This project is a Pytorch implementation of the earilist recommendation system model that taken into account the information of multi-behavior user-item interactions. MCBPR alters the typical sampling procedure of BPR (Rendle et al. 2009) to prioritize different user behaviors; specifically, MCBPR samples training pairs according to different positive level, that is the more positive the interaction is, the more likely it will be sampled. For more details, please see the paper.
 
-with a type of positive behavior and another type of weaker behavior for model training.
-
 ## Getting Started
 
 ### Dependencies
