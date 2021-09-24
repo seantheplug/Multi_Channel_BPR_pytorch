@@ -25,7 +25,8 @@ tqdm                    4.55.0
 ### Executing program
 
 * To check data format see the data inside example_data 
-* 
+
+* A running example
 ```
 python3 run.py -results ./embeddings/ -eval_results ./eval_results/ -data ./example_data/amz_beauty.train -test_data ./example_data/amz_beauty.test -d 100 -beta 0.9 -k 1 2 3 10 20 -epochs 10 -batch_size 512 -lr 0.01 -reg 0.001 0.001 0.001 -sampling 'non-uniform' -seed 1
 ```
