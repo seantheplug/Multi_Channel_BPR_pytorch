@@ -45,7 +45,7 @@ python3 run.py -results ./embeddings/ -eval_results ./eval_results/ -data ./exam
 * `-sampling` [(str)]: list of negative item sampling modes, `uniform` and/or `non-uniform`
 * `-seed` (int): random number generator seed
 
-## Authors
+## Contributors
 
 
 * SeanThePlug (https://github.com/seantheplug)
