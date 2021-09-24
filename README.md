@@ -1,4 +1,4 @@
-# Pytorch Multi Channle BPR (MCBPR)
+# Pytorch Multi Channel BPR (MCBPR)
 
 This is a Pytorch implementation of Multi Channel BPR (MCBPR)
 [Bayesian Personalized Ranking with Multi-channel User Feedback - Loni et al. (2016)](https://dl.acm.org/doi/pdf/10.1145/2959100.2959163)
